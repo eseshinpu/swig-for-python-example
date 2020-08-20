@@ -1,3 +1,6 @@
 import hello
 
-hello.Hello()
+hello.hello()
+
+my_hello = hello.MyHello("John")
+my_hello.hello()

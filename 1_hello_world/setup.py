@@ -1,8 +1,14 @@
+"""
+example using distutils
+
+The great thing is that python provides a nice tool called distutils.
+Let it do all the hard compiling work for you.
+"""
 from distutils.core import setup, Extension
 
-module = Extension(name='_hello',  # extension full name
-                   sources=['./c_ext/hello.cpp',
-                            './c_ext/hello_wrap.cxx'],
+module = Extension(name='_hello',
+                   sources=['hello.cpp',
+                            'hello_wrap.cxx'],
                    )
 
 setup(

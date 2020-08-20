@@ -1,6 +1,6 @@
-import hello
+from hello import hello, MyHello
 
-hello.hello()
+hello()
 
-my_hello = hello.MyHello("John")
+my_hello = MyHello("John")
 my_hello.hello()

@@ -1,7 +1,8 @@
 from distutils.core import setup, Extension
 
 module = Extension(name='_hello',  # extension full name
-                   sources=['hello.cpp', 'hello_wrap.cxx'],
+                   sources=['./c_ext/hello.cpp',
+                            './c_ext/hello_wrap.cxx'],
                    )
 
 setup(

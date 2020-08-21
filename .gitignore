@@ -3,7 +3,7 @@ __pycache__/
 build
 
 *.pyd
+*.cxx
 
-hello_wrap.cpp
-hello_wrap.cxx
 hello.py
+multithread.py

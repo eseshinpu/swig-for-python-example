@@ -1,15 +1,15 @@
 # swig-for-python-example
 ## What is SWIG ?
 > SWIG (Simplified Wrapper and Interface Generator) is a software development tool for building scripting language interfaces to C and C++ programs. <br>
-> SWIG（Simplified Wrapper and Interface Generator）は、CやC++プログラムへのスクリプト言語インターフェースを構築するためのソフトウェア開発ツールです。<br>
+SWIG（Simplified Wrapper and Interface Generator）は、CやC++プログラムへのスクリプト言語インターフェースを構築するためのソフトウェア開発ツールです。<br>
+
+In short, it is a tool that allows you to use C and C++ programs in a variety of languages such as Python and Perl.<br>
+要するに、Python や Perl など様々な言語で、C や C++ のプログラムを使えるようにするツールです。<br>
 
 ## index
 ### 1. hello world
 This folder contains the basic Python C extensions using SWIG and the compilation commands.<br>
 このフォルダには、SWIGを使用した基本的なPythonのC拡張と、コンパイルコマンドが記載されています。<br>
-
-
-
 
 ## TODO
 - using openmp (multithread method)

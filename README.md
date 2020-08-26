@@ -6,13 +6,24 @@ SWIG（Simplified Wrapper and Interface Generator）は、CやC++プログラム
 In short, it is a tool that allows you to use C and C++ programs in a variety of languages such as Python and Perl.<br>
 要するに、Python や Perl など様々な言語で、C や C++ のプログラムを使えるようにするツールです。<br>
 
-## index
+## Execution Environment
+- Windows 10
+- MS Build
+- Python 3.7
+- Numpy 1.19.1
+
+## Index
 ### 1. hello world
-This folder contains the basic Python C extensions using SWIG and the compilation commands.<br>
-このフォルダには、SWIGを使用した基本的なPythonのC拡張と、コンパイルコマンドが記載されています。<br>
+This example shows the configuration of a basic Python C extension using SWIG.<br>
+この例は、SWIGを使用した基本的なPythonのC拡張の構成です。<br>
+### 2. openmp
+This example shows the basic configuration for multithreading using Openmp.<br>
+この例は、Openmpを利用したマルチスレッド化のための基本構成です。<br>
+### 3. numpy
+This example shows the basic configuration for using Numpy in SWIG.<br>
+この例は、SWIGでNumpyを利用するための基本構成です。<br>
 
 ## TODO
-- using openmp (multithread method)
 - using numpy
 - about typemap
 - linux support
